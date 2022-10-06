@@ -12,7 +12,15 @@ console.log(age, typeof(age));
 const price = km * 0.21
 console.log(price, typeof (price));
 // SE l'età dell'utente è < 18 allora applica sconto 20%
+if (age < 18) {
+    discountUnder18 = ((price * 20) / 100);
+    console.log(discountUnder18, typeof (discountUnder18));
+}
 // ALTRIMENTI SE l'età dell'utente è > 65 allora applica sconto 40%
+else if (age > 65) {
+    discountOver65 = ((price * 40) / 100);
+    console.log(discountOver65, typeof (discountOver65));
+}
 
 // OUTPUT
 // comunica il prezzo finale all'utente
