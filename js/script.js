@@ -31,4 +31,4 @@ else if (age > 65) {
 
 // OUTPUT
 // comunica il prezzo finale all'utente
-document.getElementById("result").innerHTML = `Il prezzo finale è ${finalPrice}`;
+document.getElementById("result").innerHTML = `Il prezzo finale è ${finalPrice.toFixed(2)}`;
